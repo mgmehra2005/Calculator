@@ -1,5 +1,22 @@
-You need to nstall python3 before using this tool.
 This tool only runs in python3.
+
+<b><i>Install Python3</b></i>
+
+
+Windows
+  Go To : https://www.python.org/downloads/windows/
+  
+  
+Linux
+  
+    apt install python3
+  
+  
+Mac OS 
+
+  Go To : https://www.python.org/downloads/mac-osx/
+
+
 
 <b>How to install?</b>
 
