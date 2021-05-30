@@ -4,6 +4,8 @@ This tool only runs in python3.
 
 
 Windows
+  
+  
   Go To : https://www.python.org/downloads/windows/
   
   
@@ -14,6 +16,7 @@ Linux
   
 Mac OS 
 
+  
   Go To : https://www.python.org/downloads/mac-osx/
 
 
