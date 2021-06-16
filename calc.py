@@ -1,7 +1,10 @@
+import math
+from typing import Text
+
 print("\nCALCULATOR")
 print("\n\tMADE BY : Matang Mehra")
 
-print("\n1. Addition \n2. Division \n3. Multiplication \n4. Substriction \n5. Percentage \n6. Discount Checker")
+print("\n1. Addition \n2. Division \n3. Multiplication \n4. Substriction \n5. Percentage \n6. Discount Checker \n7. Square Root")
 
 print("\n\nChoose one of them : ")
 choosen_number = input()
@@ -65,6 +68,14 @@ elif choosen_number == "6":
     Value2dc = input()
     total_dc = 100-int(value1dc)/int(Value2dc)*100
     print(f"\nDiscount : {total_dc} %")
+    
+#Squre Root
+elif choosen_number == "7":
+    print("\nYou have choosen Square Root.")
+    print("\nValue :")
+    text = int(input())
+    value1sq = math.sqrt(text)
+    print(f"\nSquare Root : {value1sq}")
     
 else:
     print("You have entered worng value.")
