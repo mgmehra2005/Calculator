@@ -3,14 +3,19 @@ from typing import Text
 
 para = "\nThis Calculater is build by Matang Mehra. This Calculator is for general purpose use. This Calculator is under construction. \n\nVersion = v.1.1.1"
 
-d1 = {}
+#d1 = {}
 
-d1 ["5045"] = "Matang"
+#d1 ["ID"] = "Name"        #Enter Your Name Here or Id Which You want to use to Login.
+
+"""
+Add users with one comand
+"""
 #d1.update({"4585" : "Rishabh"})
 #d1["Arnav"] = "Member"
-p = "Enter Your ID : "
-r = d1[input(p)]
 
+#p = "Enter Your ID : "
+#r = d1[input(p)]
+r = "Sir"
 print(f"\nWelcome {r}")
 
 ls = "\n\n1. Calculator \n2. Info"
@@ -21,7 +26,7 @@ take = int(input(t1))
 
 if take == 1 :
     print("\nCALCULATOR")
-    print("\n\tBuild By Matang Mehra")
+    print("\n\tBuild By MG")
 
     print("\n1. Addition \n2. Division \n3. Multiplication \n4. Substriction \n5. Percentage \n6. Discount Checker \n7. Square Root")
 
