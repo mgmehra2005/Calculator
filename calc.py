@@ -3,11 +3,11 @@ from typing import Text
 
 para = "\nThis Calculater is build by Matang Mehra. This Calculator is for general purpose use. This Calculator is under construction. \n\nVersion = v.1.1.1"
 
-d1 = {"1250" : "Pankaj", "2500" : "Aaryan"}
+d1 = {}
 
 d1 ["5045"] = "Matang"
-d1.update({"4585" : "Rishabh"})
-
+#d1.update({"4585" : "Rishabh"})
+#d1["Arnav"] = "Member"
 p = "Enter Your ID : "
 r = d1[input(p)]
 
