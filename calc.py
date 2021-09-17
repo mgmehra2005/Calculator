@@ -1,8 +1,7 @@
 import math
 from typing import Text
 
-para = "\nThis Calculater is build by Matang Mehra. This Calculator is for general purpose use. This Calculator is under construction. \n\nVersion = v.1.1.1"
-
+para = "\My Drive\n\nVersion = v.1.1.1"
 #d1 = {}
 
 #d1 ["ID"] = "Name"        #Enter Your Name Here or Id Which You want to use to Login.
@@ -24,97 +23,111 @@ print(ls)
 t1 = "\nSelect one of them : "
 take = int(input(t1))
 
+    
 if take == 1 :
-    print("\nCALCULATOR")
-    print("\n\tBuild By MG")
+        print("\nCALCULATOR")
+        print("\n\tBuild By MG")
 
-    print("\n1. Addition \n2. Division \n3. Multiplication \n4. Substriction \n5. Percentage \n6. Discount Checker \n7. Square Root \n8. Compound Interest")
+        while True:
+            print("\n----------------------------------------------------------------------------------------------------------------------")
+            print("\n1. Addition \n2. Division \n3. Multiplication \n4. Substriction \n5. Percentage \n6. Discount Checker \n7. Square Root \n8. Compound Interest \n99. Exit")
 
-    first = "\nChoose one of them : "
-    choosen_number = input(first)
+            first = "\nChoose one of them : "
+            choosen_number = input(first)
 
 #Addition
-    if choosen_number == "1":
-        print("\nYou have choosed Addition.")
-        fa = "\nValue 1 : "
-        sa = "\nValue 2 : "
-        value1a = input(fa) 
-        value2a = input(sa)
-        total_a = int(value1a)+int(value2a)
-        print(f"\nTotal : {total_a}")
-
-    #Division
-    elif choosen_number == "2":
-        print("\nYou have choosed Division.")
-        fd = "\nNumerator : "
-        value1d = input(fd)
-        sd = "\nDenominator : "
-        Value2d = input(sd)
-        total_d = int(value1d)/int(Value2d)
-        print(f"\nTotal : {total_d}")
+            if choosen_number == "1":
+                print("\nYou have choosed Addition.")
+                fa = "\nValue 1 : "
+                sa = "\nValue 2 : "
+                value1a = input(fa) 
+                value2a = input(sa)
+                total_a = int(value1a)+int(value2a)
+                print(f"\nTotal : {total_a}")
+                continue
+#Division
+            elif choosen_number == "2":
+                print("\nYou have choosed Division.")
+                fd = "\nNumerator : "
+                value1d = input(fd)
+                sd = "\nDenominator : "
+                Value2d = input(sd)
+                total_d = int(value1d)/int(Value2d)
+                print(f"\nTotal : {total_d}")
+                continue
 
 #Multiplication
-    elif choosen_number == "3":
-        print("\nYou have choosed Multiplication.")
-        fm = "\nValue 1 : "
-        value1m = input(fm)
-        sm = "\nValue 2 : "
-        Value2m = input(sm)
-        total_m = int(value1m)*int(Value2m)
-        print(f"\nTotal : {total_m}")
+            elif choosen_number == "3":
+                print("\nYou have choosed Multiplication.")
+                fm = "\nValue 1 : "
+                value1m = input(fm)
+                sm = "\nValue 2 : "
+                Value2m = input(sm)
+                total_m = int(value1m)*int(Value2m)
+                print(f"\nTotal : {total_m}")
+                continue
 
 #Substriction
-    elif choosen_number == "4":
-        print("\nYou have choosed Substriction.")
-        fs = "\nValue 1 : "
-        value1s = input(fs)
-        ss = "\nValue 2 : "
-        Value2s = input(ss)
-        total_s = int(value1s)-int(Value2s)
-        print(f"\nTotal : {total_s}")
+            elif choosen_number == "4":
+                print("\nYou have choosed Substriction.")
+                fs = "\nValue 1 : "
+                value1s = input(fs)
+                ss = "\nValue 2 : "
+                Value2s = input(ss)
+                total_s = int(value1s)-int(Value2s)
+                print(f"\nTotal : {total_s}")
+                continue
 
 #Percentage Calculator
-    elif choosen_number == "5":
-        print("\nYou have choosed Percentage.")
-        fp = "\nValue :"
-        value1p = input(fp)
-        sp = "\nTotal :"
-        Value2p = input(sp)
-        total_p = int(value1p)/int(Value2p)*100
-        print(f"\nYour Answer : {total_p} %")
+            elif choosen_number == "5":
+                print("\nYou have choosed Percentage.")
+                fp = "\nValue :"
+                value1p = input(fp)
+                sp = "\nTotal :"
+                Value2p = input(sp)
+                total_p = int(value1p)/int(Value2p)*100
+                print(f"\nYour Answer : {total_p} %")
+                continue
 
 #Discount Checker
-    elif choosen_number == "6":
-        print("\nYou have choosed Discount Checker.")
-        fd = "\nValue : "
-        value1dc = input(fd)
-        sd = "\nTotal : "
-        Value2dc = input(sd)
-        total_dc = 100-int(value1dc)/int(Value2dc)*100
-        print(f"\nDiscount : {total_dc} %")
-    
+            elif choosen_number == "6":
+                print("\nYou have choosed Discount Checker.")
+                fd = "\nValue : "
+                value1dc = input(fd)
+                sd = "\nTotal : "
+                Value2dc = input(sd)
+                total_dc = 100-int(value1dc)/int(Value2dc)*100
+                print(f"\nDiscount : {total_dc} %")
+                continue
+
 #Squre Root
-    elif choosen_number == "7":
-        print("\nYou have choosen Square Root.")
-        fr = "\nValue : "
-        text = int(input(fr))
-        value1sq = math.sqrt(text)
-        print(f"\nSquare Root : {value1sq}")
+            elif choosen_number == "7":
+                print("\nYou have choosen Square Root.")
+                fr = "\nValue : "
+                text = int(input(fr))
+                value1sq = math.sqrt(text)
+                print(f"\nSquare Root : {value1sq}")
+                continue
 
 #Compound Interset
-    elif choosen_number == "8":
-	print("\nYou have choosen Compound Interest.")
-	p = int(input("Principle : "))
-	r = int(input("Rate : "))
-	t = int(input("Time : "))
-	ci = p*r*t
-	print("\nCompound Interest :", ci)
-    
-    else:
-        print("You have entered worng value.")
+            elif choosen_number == "8":
+                print("\nYou have choosen Compound Interest.")
+                p = int(input("\nPrinciple : "))
+                r = int(input("Rate : "))
+                t = int(input("Time : "))
+                ci = p*r*t
+                print("\nCompound Interest :", ci)
+                continue
 
+#exit
+            elif choosen_number == "99":
+                exit()
+    
+            else:
+                print("You have entered worng value.")
+                continue
 elif take == 2:
-    print(para)
+        print(para)
 
 else :
-    print("You have selected wrong number.")
+        print("You have selected wrong number.")
