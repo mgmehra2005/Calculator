@@ -28,7 +28,7 @@ if take == 1 :
     print("\nCALCULATOR")
     print("\n\tBuild By MG")
 
-    print("\n1. Addition \n2. Division \n3. Multiplication \n4. Substriction \n5. Percentage \n6. Discount Checker \n7. Square Root")
+    print("\n1. Addition \n2. Division \n3. Multiplication \n4. Substriction \n5. Percentage \n6. Discount Checker \n7. Square Root \n8. Compound Interest")
 
     first = "\nChoose one of them : "
     choosen_number = input(first)
@@ -100,6 +100,15 @@ if take == 1 :
         text = int(input(fr))
         value1sq = math.sqrt(text)
         print(f"\nSquare Root : {value1sq}")
+
+#COmpound Interset
+    elif choosen_number == "8":
+	print("\nYou have choosen Compound Interest.")
+	p = int(input("Principle : "))
+	r = int(input("Rate : "))
+	t = int(input("Time : "))
+	ci = p*r*t
+	print("\nCompound Interest :", ci)
     
     else:
         print("You have entered worng value.")
