@@ -101,7 +101,7 @@ if take == 1 :
         value1sq = math.sqrt(text)
         print(f"\nSquare Root : {value1sq}")
 
-#COmpound Interset
+#Compound Interset
     elif choosen_number == "8":
 	print("\nYou have choosen Compound Interest.")
 	p = int(input("Principle : "))
